@@ -14,7 +14,7 @@ CREATE TABLE Usuarios (
 CREATE TABLE Produtos (
     Id_produto INT PRIMARY KEY AUTO_INCREMENT,
     Nome_produto VARCHAR(100) NOT NULL,
-    Validade_produto DATE NOT NULL,
+    Validade_produto DATETIME NOT NULL,
     Preco_produto DECIMAL(10,2) NOT NULL,
     Estoque_produto INT NOT NULL,
     Id_usuario INT, 
@@ -34,7 +34,7 @@ CREATE TABLE Pedidos (
     Id_pedido INT PRIMARY KEY AUTO_INCREMENT,
     Numero_pedido VARCHAR(50) NOT NULL,
     Descricao_pedido TEXT NOT NULL,
-    Data_pedido DATE NOT NULL,
+    Data_pedido DATETIME NOT NULL,
     Status_pedido VARCHAR(50) NOT NULL,
     Forma_pagamento_pedido VARCHAR(50) NOT NULL,
     Id_cliente INT,

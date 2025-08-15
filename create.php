@@ -2,14 +2,14 @@
 include 'db.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST['nome'];
+    $nome = $_POST['nome'];
     $descricao = $_POST['descricao'];
     $preco = $_POST['preco'];
     $quantidade = $_POST['quantidade'];
     $id_usuario = 1; 
 
     $sql = "INSERT INTO produtos (nome, descricao, preco, quantidade_estoque, id_usuario)
-            VALUES ('$name', '$descricao', '$preco', '$quantidade', '$id_usuario')";
+            VALUES ('$nome', '$descricao', '$preco', '$quantidade', '$id_usuario')";
 
     if ($conn->query($sql) === TRUE) {
         header("Location: index.php");
@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <h1>Adicionar Produto</h1>
     <form method="POST">
-        Nome: <input type="text" name="nome" required><br>
+        Nome: <input type="text" Name="Nome_produto" required><br>
         Descrição: <textarea name="descricao" required></textarea><br>
         Preço: <input type="number" step="0.01" name="preco" required><br>
         Quantidade: <input type="number" name="quantidade" required><br>

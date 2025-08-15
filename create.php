@@ -2,14 +2,14 @@
 include 'db.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nome = $_POST['nome'];
+    $name = $_POST['nome'];
     $descricao = $_POST['descricao'];
     $preco = $_POST['preco'];
     $quantidade = $_POST['quantidade'];
     $id_usuario = 1; 
 
     $sql = "INSERT INTO produtos (nome, descricao, preco, quantidade_estoque, id_usuario)
-            VALUES ('$nome', '$descricao', '$preco', '$quantidade', '$id_usuario')";
+            VALUES ('$name', '$descricao', '$preco', '$quantidade', '$id_usuario')";
 
     if ($conn->query($sql) === TRUE) {
         header("Location: index.php");

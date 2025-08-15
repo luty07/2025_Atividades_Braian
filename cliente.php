@@ -18,8 +18,8 @@
         </div>
         <div class="title">
             <h1>Produtos da Padaria Pãodango</h1>
-            Padaria Daora
-            <br><br><br>
+            <br>
+            <br>
             <a href="select.php" class="button">Voltar</a>
             <h2>Produtos Disponíveis</h2>
         </div>

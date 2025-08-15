@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$dbname = "crud_system";
+$dbname = "padaria_paodango";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

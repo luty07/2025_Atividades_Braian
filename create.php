@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         echo "Erro " . $sql . '<br>' . $conn->error;
     }
-    $conn->close();
+    
 }
 
 ?>
@@ -27,7 +27,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create</title>
 </head>
-
 <body>
 
     <form method="POST" action="create.php">
@@ -45,5 +44,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <a href="read.php">Ver registros.</a>
 
 </body>
-
 </html>

@@ -1,4 +1,4 @@
-# Sistema CRUD com PHP e MySQL
+# Desenvolvimento de um CRUD para Padaria
 
 Este projeto foi feito para praticar e mostrar como funciona um sistema CRUD (Create, Read, Update e Delete) usando PHP e MySQL. A ideia é ter páginas que permitem inserir, listar, atualizar e excluir dados de um banco de dados.
 

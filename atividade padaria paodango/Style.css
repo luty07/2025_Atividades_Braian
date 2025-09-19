@@ -1,0 +1,99 @@
+ #navbar {
+            margin: 0px;
+            padding: 15px;
+            background-color: #1ed2ab; 
+            text-align: center;
+        }
+
+        .h1 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .h2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .title {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .imagem {
+            margin: 20px;
+            width: 250px; 
+            height: 200px; 
+        }
+
+        .footer {
+            background-color: #005e56;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .preco {
+            text-align: center;
+            font-size: 18px;
+            color: #138b77; 
+        }
+
+        .card {
+            border: 2px solid #138b8b;
+            margin: 10px;
+            padding: 10px;
+            background-color: #dcffff; 
+            text-align: center;
+        }
+
+        .cabecalho {
+            text-align: center;
+            color: black;
+        }
+
+        .button {
+            background-color: #138b8b;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #2da0a0; 
+        }
+
+        .contato {
+            margin: 10px;
+            background-color: black;
+            width: 370px;
+            border: solid;
+            color: aliceblue;
+        }
+
+        #textbox {
+            height: 20px;
+        }
+
+        .ajuste {
+            background-color: gray;
+            height: 20px;
+        }
+
+        .PadariaBumba {
+            width: 100px;
+            height: 100px;
+            padding-right: 40%;
+        }
+        .flex h1 {
+        text-align: center;
+        width: 100%;
+        }
